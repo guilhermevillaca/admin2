@@ -1,0 +1,123 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.12
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: 21-Mar-2016 às 14:10
+-- Versão do servidor: 5.6.25
+-- PHP Version: 5.6.11
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `admin`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `posts`
+--
+
+CREATE TABLE IF NOT EXISTS `posts` (
+  `id` int(11) NOT NULL,
+  `title` varchar(60) NOT NULL,
+  `image` varchar(256) NOT NULL,
+  `text` text NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `posts`
+--
+
+INSERT INTO `posts` (`id`, `title`, `image`, `text`) VALUES
+(1, 'teste', '102d08eabeaa53f524930fd74fd39187.jpg', 'teste');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `pssfisica`
+--
+
+CREATE TABLE IF NOT EXISTS `pssfisica` (
+  `PssFisicaCodigo` int(11) NOT NULL,
+  `PssFisicaNome` varchar(45) NOT NULL,
+  `PssFisicaSobrenome` varchar(45) NOT NULL,
+  `PssFisicaEmail` varchar(255) DEFAULT NULL,
+  `PssFisicaDtNascimento` datetime DEFAULT NULL,
+  `PssFisicaSexo` char(1) DEFAULT NULL,
+  `PssFisicaCPF` varchar(14) DEFAULT NULL,
+  `PssFisicaRG` varchar(45) DEFAULT NULL,
+  `PssFisicaLogin` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `user`
+--
+
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL,
+  `login` varchar(64) NOT NULL,
+  `password` varchar(64) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `user`
+--
+
+INSERT INTO `user` (`id`, `login`, `password`) VALUES
+(1, 'admin', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `posts`
+--
+ALTER TABLE `posts`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `pssfisica`
+--
+ALTER TABLE `pssfisica`
+  ADD PRIMARY KEY (`PssFisicaCodigo`);
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `posts`
+--
+ALTER TABLE `posts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `pssfisica`
+--
+ALTER TABLE `pssfisica`
+  MODIFY `PssFisicaCodigo` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
