@@ -1,7 +1,7 @@
 <hr>
 
       <footer>
-        <p>&copy; Villadon 2013 - Direitos Reservados</p>
+        <p>&copy; Villadon 2016 Guilherme Villaca - Direitos Reservados</p>
       </footer>
 
     </div><!--/.fluid-container-->

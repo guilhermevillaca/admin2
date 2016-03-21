@@ -3,10 +3,11 @@
 class Postsmodel extends CI_Model {
 
 	public function insert_post(){
-		$f = $this->upload->data();
+		$f = $this->upload->data();			
 		$data = array(
 			'title' => $this->input->post('title'),
 			'image' => $f['file_name'],
+			'tipoArquivo' => $f['file_ext'],
 			'text' => $this->input->post('text')
 			);
 

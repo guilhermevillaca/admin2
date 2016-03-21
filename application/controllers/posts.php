@@ -29,7 +29,7 @@ class Posts extends CI_Controller {
 
 		$config['base_url'] = base_url('posts');
 		$config['total_rows'] = $this->postsmodel->count_posts();
-		$config['uri_segment'] = 2;
+		$config['uri_segment'] = 20;
 		$config['per_page'] = $maximo;
 		$config['first_link'] = 'Primeiro';
         $config['cur_tag_open'] = '<li class="current"><a>';
@@ -99,7 +99,7 @@ class Posts extends CI_Controller {
 
 		$this->data['single'] = $this->postsmodel->list_single($id);
 
-		if($this->session->userdata('is_logged_in')){
+		if($this->session->userdata('is_logged_in')){					
 			$this->template->load('template', 'posts/single', $this->data);
 		}else{
 			redirect('user');
@@ -165,7 +165,7 @@ class Posts extends CI_Controller {
 
 			$config['upload_path'] = 'img/uploads/';
 			$config['file_name'] = $_FILES['image']['name'];
-			$config['allowed_types'] = 'gif|jpg|png';
+			$config['allowed_types'] = 'gif|jpg|png|pdf';
 			$config['max_size']	= '100';
 			$config['encrypt_name'] = true;
 			$config['max_width']  = '1024';
