@@ -15,21 +15,21 @@ class Posts extends CI_Controller {
 		$this->load->library('pagination');
 
 		$maximo = 2;
-
-		if ($this->uri->segment(2) == "")
+		
+		if ($this->uri->segment(3) == "")
         {
             $inicio = 0;
         }
         else
         {
-            $inicio = $this->uri->segment(2);
+            $inicio = $this->uri->segment(3);
         }
 
         $this->data['news'] = $this->postsmodel->listar($maximo, $inicio);
 
-		$config['base_url'] = base_url('posts');
+		$config['base_url'] = base_url('posts/index');
 		$config['total_rows'] = $this->postsmodel->count_posts();
-		$config['uri_segment'] = 20;
+		$config['uri_segment'] = 3;
 		$config['per_page'] = $maximo;
 		$config['first_link'] = 'Primeiro';
         $config['cur_tag_open'] = '<li class="current"><a>';
@@ -37,8 +37,8 @@ class Posts extends CI_Controller {
         $config['last_link'] = 'Último';
         $config['next_link'] = '>>';
         $config['prev_link'] = '<<';
-        $config['full_tag_open'] = '<ul class="pagination">';
-        $config['full_tag_close'] = '</ul>';
+        $config['full_tag_open'] = '<div class="pagination"><ul>';
+        $config['full_tag_close'] = '</div></ul>';
         $config['first_tag_open'] = '<li>';
         $config['first_tag_close'] = '</li>';
         $config['last_tag_open'] = '<li>';

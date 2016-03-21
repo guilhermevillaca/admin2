@@ -23,6 +23,7 @@ class Loginmodel extends CI_Model {
 
 	public function listar($maximo, $inicio){
 		$this->db->order_by('UsrCodigo', 'desc');
+		$this->db->where('UsrLogin !=', 'admin');
 		$this->db->from('usuario');
 		$this->db->limit($maximo, $inicio);
 		$r = $this->db->get();
