@@ -85,7 +85,7 @@ class User extends CI_Controller {
 
 		$this->load->library('pagination');
 
-		$maximo = 2;
+		$maximo = 10;
 
 		if ($this->uri->segment(3) == "")
         {
@@ -239,6 +239,14 @@ class User extends CI_Controller {
 
 	}
 
+	public function delete($id){
+		$this->loginmodel->delete($id);
+		if($this->session->userdata('is_logged_in')){
+			redirect('user/listar');
+		}else{
+			redirect('user');
+		}
+	}
 
 }
 

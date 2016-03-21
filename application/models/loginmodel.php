@@ -73,6 +73,11 @@ class Loginmodel extends CI_Model {
 
 	}
 
+	public function delete($id){
+		$this->db->where('UsrCodigo', $id);
+		$this->db->delete('usuario');		
+	}
+
 }
 
 /* End of file loginmodel.php */
