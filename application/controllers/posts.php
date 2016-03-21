@@ -125,7 +125,7 @@ class Posts extends CI_Controller {
 			'name' => 'title',
 			'placeholder' => 'Insira o Título',
 			'class' => 'input-block-level',
-			'value' => $edit[0]->title
+			'value' => $edit[0]->PstTitulo
 			);
 
 		$this->data['id_post'] = array(
@@ -137,7 +137,7 @@ class Posts extends CI_Controller {
 			'name' => 'text',
 			'placeholder' => 'Insira o Texto da Notícia',
 			'class' => 'input-block-level',
-			'value' => $edit[0]->text
+			'value' => $edit[0]->PstDescricao
 			);
 
 		$this->data['img_news'] = array(

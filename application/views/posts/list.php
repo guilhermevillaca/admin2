@@ -17,12 +17,12 @@
 
         <?php foreach ($news as $key => $value): ?>                
             <tr>                
-                <th><?php echo $value->id; ?></th>
-                <th><?php echo $value->title; ?></th>
-                <th><?php echo word_limiter($value->text, 10); ?></th>
+                <th><?php echo $value->PstCodigo; ?></th>
+                <th><?php echo $value->PstTitulo; ?></th>
+                <th><?php echo word_limiter($value->PstDescricao, 10); ?></th>
                 <th>
-                    <a class="btn btn-primary" href="<?php echo base_url('posts/single/'.$value->id); ?>">Leia Mais</a>
-                    <a class="btn btn-danger" href="<?php echo base_url('posts/delete/'.$value->id) ?>">Excluir</a>
+                    <a class="btn btn-primary" href="<?php echo base_url('posts/single/'.$value->PstCodigo); ?>">Leia Mais</a>
+                    <a class="btn btn-danger" href="<?php echo base_url('posts/delete/'.$value->PstCodigo) ?>">Excluir</a>
                 </th>
             </tr>            
         <?php endforeach ?>            

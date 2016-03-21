@@ -5,10 +5,10 @@ class Postsmodel extends CI_Model {
 	public function insert_post(){
 		$f = $this->upload->data();			
 		$data = array(
-			'title' => $this->input->post('title'),
-			'image' => $f['file_name'],
-			'tipoArquivo' => $f['file_ext'],
-			'text' => $this->input->post('text')
+			'PstTitulo' => $this->input->post('title'),
+			'PstArquivo' => $f['file_name'],
+			'PstTpArquivo' => $f['file_ext'],
+			'PstDescricao' => $this->input->post('text')
 			);
 
 		$this->db->insert('posts', $data);
@@ -28,7 +28,7 @@ class Postsmodel extends CI_Model {
 	}
 
 	public function listar($maximo, $inicio){
-		$this->db->order_by('id', 'desc');
+		$this->db->order_by('PstCodigo', 'desc');
 		$this->db->from('posts');
 		$this->db->limit($maximo, $inicio);
 		$r = $this->db->get();
@@ -37,13 +37,13 @@ class Postsmodel extends CI_Model {
 
 	public function list_single($id){
 
-		$this->db->where('id', $id);
+		$this->db->where('PstCodigo', $id);
 		$r = $this->db->get('posts');
 		return $r->result();
 	}
 
 	public function delete($id){
-		$this->db->where('id', $id);
+		$this->db->where('PstCodigo', $id);
 		$this->db->delete('posts');		
 	}
 
@@ -51,11 +51,11 @@ class Postsmodel extends CI_Model {
 	{
 
 		$data = array(
-               'title' => $this->input->post('title'),
-               'text' => $this->input->post('text'),
+               'PstTitulo' => $this->input->post('title'),
+               'PstDescricao' => $this->input->post('text'),
             );
 
-		$this->db->where('id', $id);
+		$this->db->where('PstCodigo', $id);
 		$this->db->update('posts', $data);
 
 		if ($this->db->affected_rows() > 0) {
