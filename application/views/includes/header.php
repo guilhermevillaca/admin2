@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>CMS Villadon</title>
+    <title><?=$config[0]->CnfNomeSite;?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -57,16 +57,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">CMS Villadon</a>
+          <a class="brand" href="#"><?=$config[0]->CnfNomeSite;?></a>          
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
               Logado como <a href="<?php echo base_url('user/logout') ?>" 
               title="Sair" class="navbar-link"><?php echo $this->session->userdata('login'); ?></a>
             </p>
             <ul class="nav">
-              <li class="active"><a href="#">Admin</a></li>
-              <li><a href="#about">Site</a></li>
-              <li><a href="#contact">Sobre</a></li>
+              <li class="active"><a href="<?=base_url()?>">Admin</a></li>
+              <li><a href="<?=$config[0]->CnfLinkSite;?>" target="_blank">Site</a></li>
+              <li><a href="http://www.villadon.com.br" target="_blank">Sobre</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

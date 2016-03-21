@@ -9,6 +9,7 @@ class Posts extends CI_Controller {
 
 		$this->load->model('postsmodel');
 		$this->data['title'] = "Noticias";
+		$this->data['config'] = $this->configuracoesmodel->list_single(1);
 	}
 	public function index()
 	{		

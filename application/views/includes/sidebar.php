@@ -11,7 +11,7 @@
               <li <?= active('clientes')?>><a class="inactive" href="#">Gerenciar (em construção)</a></li>
               <li class="nav-header">Admin</li>
               <li <?= active('user')?>><a href="<?=base_url('user/listar')?>">Usuários</a></li>
-              <li <?= active('config')?>><a href="#">Configurações</a></li>
+              <li <?= active('configuracoes')?>><a href="<?=base_url('configuracoes')?>">Configurações</a></li>
               <li><a href="<?php echo base_url('user/logout') ?>">Sair</a></li>
             </ul>
           </div><!--/.well -->

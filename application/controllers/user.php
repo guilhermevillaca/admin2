@@ -8,6 +8,7 @@ class User extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('loginmodel');
+		$this->data['config'] = $this->configuracoesmodel->list_single(1);
 	}
 
 	public function index()
