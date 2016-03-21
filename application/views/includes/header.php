@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <link href="<?php echo base_url('css/style.css') ?>" rel="stylesheet">
     <link href="<?php echo base_url('css/bootstrap.css') ?>" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/bootstrap-wysihtml5.css'); ?>"></link>
     

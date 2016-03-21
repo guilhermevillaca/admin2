@@ -20,19 +20,19 @@ class User extends CI_Controller {
 		$this->data['login'] = array(
 			"class" => "input-block-level",
 			"name" => "login",
-			"placeholder" => "Insira seu Login"
+			"placeholder" => "Login"
 			);
 
 		$this->data['password'] = array(
 			"class" => "input-block-level",
 			"name" => "password",
-			"placeholder" => "Insira sua Senha"
+			"placeholder" => "Senha"
 			);
 
 		$this->data['enviar'] = array(
 			"name" => "enviar",
 			"value" => "Entrar",
-			"class" => "btn btn-large btn-primary"
+			"class" => "btn btn-primary"
 			);
 
 		if($this->session->userdata('is_logged_in')){
