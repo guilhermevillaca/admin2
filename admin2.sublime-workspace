@@ -1,0 +1,345 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jsn",
+				"json_decode"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"createS",
+				"http.createServer(requestListener);"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "installp",
+		"selected_items":
+		[
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control l",
+				"Package Control: List Packages"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"package controle: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/admin2"
+	],
+	"file_history":
+	[
+		"/D/Projetos/minos_maven/nbactions.xml",
+		"/D/Projetos/minos_maven/nb-configuration.xml",
+		"/D/minos_backup/src/br/unioeste/minos/controller/AvlPrfAvaliadorController.java",
+		"/D/node/json.js",
+		"/D/object.js",
+		"/C/midas/midas.ini",
+		"/C/Users/guilherme.villaca/Downloads/wordpress-4.4.1-pt_BR/wordpress/wp-content/themes/twentyfifteen/comments.php",
+		"/C/Users/guilherme.villaca/Downloads/wordpress-4.4.1-pt_BR/wordpress/wp-content/themes/twentyfifteen/content-link.php",
+		"/C/Program Files (x86)/Jaspersoft/iReport-3.7.2/etc/ireport.conf",
+		"/C/Program Files (x86)/Jaspersoft/iReport-5.6.0/etc/ireport.conf",
+		"/C/Users/guilherme.villaca/Downloads/wordpress-4.4.1-pt_BR/wordpress/wp-content/themes/twentyfifteen/footer.php",
+		"/C/Users/guilherme.villaca/Downloads/wordpress-4.4.1-pt_BR/wordpress/wp-content/themes/twentyfifteen/functions.php",
+		"/C/Users/guilherme.villaca/Downloads/index.html",
+		"/C/Users/guilherme.villaca/Desktop/obladi.html",
+		"/C/Users/guilherme.villaca/Desktop/bla.jpeg",
+		"/C/Users/guilherme.villaca/AppData/Roaming/NetBeans/8.0.2/apache-tomcat-8.0.15.0_base/conf/Catalina/localhost/minos_mvc.xml",
+		"/D/Projetos/minos/web/META-INF/context.xml",
+		"/D/Projetos/minos/.gitignore",
+		"/D/Projetos/minos/.gitmodules",
+		"/D/Projetos/minos/README",
+		"/D/Projetos/minos/LICENSE",
+		"/D/academus/web/app/controller/AcdMatricula.js",
+		"/D/xampp/htdocs/admin/assets/js/services/home.js",
+		"/D/xampp/htdocs/admin/assets/js/controllers/home.js",
+		"/D/xampp/htdocs/admin/application/views/home.php",
+		"/D/xampp/htdocs/admin/application/controllers/Home.php",
+		"/C/Users/guilherme.villaca/Downloads/gui.pem",
+		"/D/xampp/htdocs/admin/application/language/portuguese-brazilian/rest_controller_lang.php",
+		"/D/xampp/htdocs/admin/application/config/config.php",
+		"/D/xampp/htdocs/admin/application/config/rest.php",
+		"/D/xampp/htdocs/admin/application/libraries/Format.php",
+		"/D/xampp/htdocs/admin/application/libraries/REST_Controller.php",
+		"/D/xampp/htdocs/admin/application/config/autoload.php",
+		"/D/xampp/htdocs/admin/application/libraries/Rest.php",
+		"/D/xampp/htdocs/admin/.htaccess",
+		"/D/xampp/htdocs/admin/assets/js/app.js",
+		"/D/xampp/htdocs/admin/assets/css/style.css",
+		"/D/xampp/htdocs/admin/application/config/routes.php",
+		"/D/apps/lista/platforms/platforms.json",
+		"/D/apps/lista/platforms/android/android.json",
+		"/D/apps/lista/config.xml",
+		"/D/apps/app/config.xml",
+		"/D/apps/app/www/index.html",
+		"/D/apps/app/www/js/index.js",
+		"/D/apps/app/hooks/README.md",
+		"/C/Users/guilherme.villaca/AppData/Local/Microsoft/Windows/INetCache/IE/P6H7ROSQ/pom[1].xml",
+		"/D/node/myApp/platforms/android/cordova/lib/emulator.js",
+		"/C/Users/guilherme.villaca/.android/androidtool.cfg",
+		"/C/Users/guilherme.villaca/.android/avd/Nexus4.ini",
+		"/C/Users/guilherme.villaca/.android/avd/Nexus_4_API_22.avd/emulator-user.ini",
+		"/C/Users/guilherme.villaca/.android/avd/Nexus_4_API_22.avd/config.ini",
+		"/C/Users/guilherme.villaca/.android/debug.keystore",
+		"/C/Users/guilherme.villaca/.android/androidwin.cfg",
+		"/D/node/ts/hello.ts",
+		"/D/node/ts/hello.js",
+		"/D/academus/web/app/util.js",
+		"/D/academus/web/app/app.js",
+		"/D/xampp/htdocs/blog/wp-config-sample.php",
+		"/D/node/ts/hello.html",
+		"/D/minos/.gitmodules",
+		"/D/node/pdf/jspdf.js",
+		"/D/node/pdf/index.html",
+		"/D/node/teste/index.html",
+		"/D/node/pdf/node.js",
+		"/D/node/markdown-pdf/node_modules/markdown-pdf/index.js",
+		"/D/node/markdown-pdf/index.js",
+		"/D/node/pdfkit/index.js",
+		"/D/node/pdf/examples/test_from_html_css_page_breaks.html",
+		"/C/Users/guilherme.villaca/Downloads/angular-1.4.8/angular-cookies.js",
+		"/C/Users/guilherme.villaca/Downloads/angular-1.4.8/angular.js",
+		"/D/node/myapp/myapp/bin/www",
+		"/C/Users/guilherme.villaca/Downloads/meanjs-mean-0.4.2-42-g6658774/meanjs-mean-6658774/test.js",
+		"/C/Users/guilherme.villaca/Downloads/meanjs-mean-0.4.2-42-g6658774/meanjs-mean-6658774/server.js",
+		"/C/Users/guilherme.villaca/Downloads/bootstrap-3.3.6-dist/js/npm.js",
+		"/D/node/myapp/myapp/app.js",
+		"/D/node/myapp/myapp/routes/index.js",
+		"/D/node/myapp/myapp/routes/users.js",
+		"/D/node/myapp/myapp/views/index.jade",
+		"/D/node/myapp/myapp/views/layout.jade",
+		"/D/node/myapp/myapp/views/error.jade",
+		"/D/node/myapp/myapp/public/stylesheets/style.css",
+		"/D/node/myapp/app.js",
+		"/D/node/myapp/node_modules/express/index.js",
+		"/C/Users/guilherme.villaca/Downloads/Vraptor_angular_tagTemplate/Vraptor_brutaut_angular_simpletemplate/src/main/java/com/br/testes/controllers/UsuarioController.java",
+		"/C/Users/guilherme.villaca/Downloads/Vraptor_angular_tagTemplate/Vraptor_brutaut_angular_simpletemplate/src/main/java/com/br/testes/controllers/LivroController.java",
+		"/C/Users/guilherme.villaca/Downloads/Vraptor_angular_tagTemplate/Vraptor_brutaut_angular_simpletemplate/src/main/webapp/js/indexCtrl.js",
+		"/C/Users/guilherme.villaca/Downloads/Vraptor_angular_tagTemplate/Vraptor_brutaut_angular_simpletemplate/src/main/webapp/js/livroCtrl.js",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master/meus-contatos/src/main/java/br/com/pedroHos/controller/ContatoController.java",
+		"/C/Users/guilherme.villaca/Downloads/vraptor-gson-plugin-master/src/main/java/br/com/beyondclick/vraptor/util/gson/GsonSerializationProvider.java",
+		"/C/Users/guilherme.villaca/Downloads/vraptor-gson-plugin-master/src/main/java/br/com/beyondclick/vraptor/serialization/gson/GsonJSONSerialization.java",
+		"/C/Users/guilherme.villaca/Downloads/vraptor-gson-plugin-master/src/main/java/br/com/beyondclick/vraptor/restfulie/serialization/GsonRestfulSerializationJSON.java",
+		"/C/Users/guilherme.villaca/Downloads/vraptor-gson-plugin-master/src/main/java/br/com/beyondclick/vraptor/serialization/gson/GsonJSONSerializer.java",
+		"/C/Users/guilherme.villaca/Downloads/Vraptor_angular_tagTemplate/Vraptor_brutaut_angular_simpletemplate/src/main/java/com/br/testes/controllers/IndexController.java",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master/meus-contatos-view/public/views/main.html",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master/meus-contatos-view/public/js/services/contatoService.js",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master/meus-contatos/src/main/java/br/com/pedroHos/controller/CORSController.java",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master/meus-contatos-view/public/js/controllers/main.js",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master/ola-vraptor/src/main/java/br/com/pedroHos/controller/OlaController.java",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master/meus-contatos-view/public/js/app.js",
+		"/C/Users/guilherme.villaca/Downloads/aprendendo-vraptor-master.zip",
+		"/C/Users/guilherme.villaca/Downloads/bootstrap-3.3.6-dist/css/bootstrap-theme.css",
+		"/C/Users/guilherme.villaca/Documents/Fuse/teste/MainView.ux",
+		"/C/Users/guilherme.villaca/AppData/Roaming/Sublime Text 3/Packages/Fuse/UserGuide.txt",
+		"/C/Users/guilherme.villaca/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/guilherme.villaca/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Unable to load the requested class: Format",
+			"text = function",
+			"text =",
+			"text (",
+			"text(",
+			"text",
+			"uppercase",
+			"digest",
+			"ngIf",
+			"ngRepeat",
+			");"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "admin2.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
